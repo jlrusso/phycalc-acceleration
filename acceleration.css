@@ -851,7 +851,7 @@ input[type="radio"] {
 	background-color: rgba(0,0,0,0.7) !important;
 }
 .modal-header h4 {
-  max-width: 200px;
+  width: 200px;
   margin:auto;
   background-color:var(--main-black-color);
   padding:5px;
@@ -1352,6 +1352,9 @@ button.accordion.active:after {
 	.slide-bar {
 		width: 35px;
 	}
+	#bottom-pager {
+		width: 85%;
+	}
 	.next-page-btn,
 	.prev-page-btn {
 		width: 100%;
@@ -1380,6 +1383,9 @@ button.accordion.active:after {
     width: 100%;
     margin-bottom: 10px;
   }
+	.modal-header h4 {
+		width: 100%;
+	}
 	.modal-panel img {
 	  width: 100%;
 	}
