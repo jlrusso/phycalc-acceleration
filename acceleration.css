@@ -1,6 +1,7 @@
 :root {
 	--main-yellow-color: #F1C40F;
 	--main-black-color: #333;
+	--main-white-color: #EAECEE;
 }
 html, body {
 	height:100%;
@@ -51,7 +52,7 @@ nav {
 	position: relative;
 	width: 100%;
 	height: 50px;
-	background-color: #333;
+	background-color: var(--main-black-color);
 	padding: 0 !important;
 	z-index: 3 !important;
 }
@@ -64,7 +65,7 @@ nav {
 	text-decoration: none;
 	font-weight: bold;
 	font-size: 150%;
-	color: #F1C40F !important;
+	color: var(--main-yellow-color) !important;
 	transition: 0.2s;
 }
 .nav-logo a:hover {
@@ -87,7 +88,7 @@ nav {
 	border-radius: 4px;
 	text-decoration: none;
 	font-weight: bold;
-	color: #F1C40F !important;
+	color: var(--main-yellow-color) !important;
 	margin: 8px 5px 0 0;
 	transition: 0.4s;
 }
@@ -137,7 +138,7 @@ nav {
 #search-icon {
 	background-color: transparent;
 	padding: 8px 10px 5px;
-	color: #F1C40F;
+	color: var(--main-yellow-color);
 	font-size: 1.5rem;
 	position: absolute;
 	border: 0;
@@ -186,7 +187,7 @@ nav {
 	height: 230px;
 	padding: 10px;
 	overflow-y: auto;
- 	background-color: #333;
+ 	background-color: var(--main-black-color);
   border-radius:0 0 5px 5px;
 }
 
@@ -288,7 +289,7 @@ nav {
 	right: -15px;
 	width: 180px;
 	height: auto;
-	background-color: #333;
+	background-color: var(--main-black-color);
 	padding: 5px;
 	border-radius: 5px;
 	z-index: 3000 !important;
@@ -323,7 +324,7 @@ nav {
 	text-decoration: none;
 	text-align: center;
 	font-weight: bold;
-	color: #F1C40F !important;
+	color: var(--main-yellow-color) !important;
 	border-right: 3px solid transparent;
 	border-left: 3px solid transparent;
 	transition: 0.2s;
@@ -342,8 +343,8 @@ nav {
 }
 .vertical-link:hover {
 	border: 0 !important;
-	background-color: #F1C40F !important;
-	color: #333 !important;
+	background-color: var(--main-yellow-color) !important;
+	color: var(--main-black-color) !important;
 	z-index: 4000 !important;
 }
 #click-box {
@@ -424,8 +425,8 @@ a.next-page-btn:hover .glyphicon-chevron-right {
 .time-selection,
 .unit-selection,
 .solve-selection {
-  background: #333 !important;
-  color: #F1C40F !important;
+  background: var(--main-black-color) !important;
+  color: var(--main-yellow-color) !important;
   font-weight: normal !important;
   border-radius: 4px;
   padding: 10px 10px 7px;
@@ -434,8 +435,8 @@ a.next-page-btn:hover .glyphicon-chevron-right {
 }
 /*--- BADGES ---*/
 .badge {
-  color: #333 !important;
-  background-color: #F1C40F !important;
+  color: var(--main-black-color) !important;
+  background-color: var(--main-yellow-color) !important;
   margin-bottom: 3px;
 }
 /*--- END OF BADGES ---*/
@@ -460,11 +461,11 @@ a.next-page-btn:hover .glyphicon-chevron-right {
 }
 .radio-btn:hover input + .checkmark {
   background-color: var(--main-yellow-color);
-  color: #333;
+  color: var(--main-black-color);
 }
 .radio-btn input:checked + .checkmark {
   background-color:var(--main-yellow-color);
-  color: #333;
+  color: var(--main-black-color);
 }
 .radio-btn input:disabled + .checkmark {
   background-color: red;
@@ -507,7 +508,7 @@ a.next-page-btn:hover .glyphicon-chevron-right {
 	outline: none;
 }
 .yellow-outline {
-  box-shadow: 0 0 2px 2px #F1C40F, 0 0 4px 4px #333 !important;
+  box-shadow: 0 0 2px 2px var(--main-yellow-color), 0 0 4px 4px var(--main-black-color) !important;
   outline: none !important;
 }
 .yellow-outline:focus {
@@ -539,7 +540,7 @@ input[type="radio"] {
 /*--- Equation Pics and Form Controls ---*/
 #solo-image img {
   border-radius: 4px;
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px var(--main-black-color);
 }
 #outer-image-container {
   position: relative;
@@ -547,7 +548,7 @@ input[type="radio"] {
   height: 50%;
   border-radius: 4px !important;
   margin: 15px 0;
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px var(--main-black-color);
   overflow: hidden !important;
 }
 #inner-image-container {
@@ -614,12 +615,12 @@ input[type="radio"] {
   height: 6px;
   background-color: #fff;
   border-radius: 2px;
-  border: 1px solid #333;
+  border: 1px solid var(--main-black-color);
   cursor: pointer;
   transition: 0.5s;
 }
 .slide-bar:hover:not(.active-indicator) {
-  background-color: #333;
+  background-color: var(--main-black-color);
 }
 #outer-image-container:hover #slide-bar-indicators {
   opacity: 1;
@@ -673,7 +674,7 @@ input[type="radio"] {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #333;
+  background-color: var(--main-black-color);
 }
 .module-back {
   display: flex;
@@ -824,7 +825,7 @@ input[type="radio"] {
     border: 2px solid var(--main-black-color);
 		border-radius: 4px;
     background-color: transparent;
-    color: #333;
+    color: var(--main-black-color);
     font-size: 1.5rem;
     font-weight: bold;
     outline: none;
@@ -883,7 +884,7 @@ input[type="radio"] {
 }
 
 button.accordion {
-    background-color: #333;
+    background-color: var(--main-black-color);
     color: var(--main-yellow-color);
     cursor: pointer;
     padding: 18px;
@@ -939,7 +940,7 @@ button.accordion.active:after {
   float: right;
   text-align: center;
   color: var(--main-yellow-color);
-  background-color: #333;
+  background-color: var(--main-black-color);
   padding: 0 8px;
   border: 0;
   border-radius: 50%;
@@ -949,7 +950,7 @@ button.accordion.active:after {
 }
 .modal-header-btn:hover {
   background-color:var(--main-yellow-color);
-  color: #333;
+  color: var(--main-black-color);
 }
 
 /*--- Calculator Modal ---*/
@@ -988,7 +989,7 @@ button.accordion.active:after {
 	margin-bottom: 5px;
 	border: 0;
 	border-radius: 5px;
-	background: #333;
+	background: var(--main-black-color);
 	outline-color: var(--main-yellow-color);
 	color: var(--main-yellow-color);
 	font-size: 2.5rem;
@@ -1018,7 +1019,7 @@ button.accordion.active:after {
     border: 1px solid var(--main-yellow-color);
     padding: 4px;
     border-radius: 5px;
-    background-color: #333;
+    background-color: var(--main-black-color);
 		outline: none;
 		cursor: pointer;
     font-weight: bold;
@@ -1028,8 +1029,8 @@ button.accordion.active:after {
 }
 .calculator-whole button:hover {
 	background-color: var(--main-yellow-color);
-	border: 1px solid #333;
-    color: #333;
+	border: 1px solid var(--main-black-color);
+    color: var(--main-black-color);
 }
 .calculator-whole button:active {
 	background-color: DarkGray;
@@ -1041,7 +1042,7 @@ button.accordion.active:after {
 #radians-indicator, #degrees-indicator {
 	width: 7px;
 	height: 7px;
-	background-color: #333;
+	background-color: var(--main-black-color);
 	border-radius: 50%;
 	display: block;
 	position: absolute;
@@ -1058,7 +1059,7 @@ button.accordion.active:after {
 	border: 1px solid var(--main-yellow-color);
 	border-radius: 5px;
 	padding: 4.5px 4.5px 4.5px 10px;
-	background-color: #333;
+	background-color: var(--main-black-color);
 	outline: none;
 	font-size: 1.5rem;
 	color: var(--main-yellow-color);
