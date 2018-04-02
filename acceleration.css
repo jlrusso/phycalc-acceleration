@@ -722,6 +722,9 @@ input[type="radio"] {
 	background-color: var(--main-yellow-color);
 	color: var(--main-black-color);
 }
+.slide-arrow-btn .glyphicon {
+	padding-top: 3px;
+}
 #prev-slide-btn {
   position: absolute;
   top: 0;
@@ -892,7 +895,7 @@ input[type="radio"] {
 /*--- Third Page Pictures ---*/
 .third-page-pics {
   position: relative;
-  overflow-y: hidden;
+  transition: 0.4s;
 }
 .third-page-pics img {
   width:100%;
@@ -900,7 +903,9 @@ input[type="radio"] {
   border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-  box-shadow: 0 0 10px  var(--main-black-color);
+}
+.third-page-pics:hover img {
+	box-shadow: 0 0 10px  var(--main-black-color);
 	-webkit-box-shadow: 0 0 10px  var(--main-black-color);
 	-moz-box-shadow: 0 0 10px  var(--main-black-color);
 }
@@ -995,7 +1000,7 @@ input[type="radio"] {
     position: relative;
     width: 550px;
     height: auto;
-    margin: 10px auto 0;
+    margin: 20px auto 0;
     padding: 10px;
 		border: 2px solid var(--main-black-color);
     border-radius: 4px;
