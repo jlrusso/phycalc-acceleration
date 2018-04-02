@@ -343,9 +343,9 @@ closeModalBtns.forEach(function(btn){
 	function solveForBtnFunction(){
 
 		function resetInputFields(){
-			accelerationField.placeholder = "Acceleration";
-			velocityChangeField.placeholder = deltaSymbol.textContent + " Velocity";
-			timeChangeField.placeholder = deltaSymbol.textContent + " Time";
+			accelerationField.placeholder = "acceleration";
+			velocityChangeField.placeholder = "velocity" + " (\u0394v)";
+			timeChangeField.placeholder = "time" + " (\u0394t)";
 
 			for(let i = 0; i < inputFields.length; i++){
 				inputFields[i].value = "";
@@ -465,9 +465,9 @@ closeModalBtns.forEach(function(btn){
 
 
 	function clearFunc(){
-		accelerationField.placeholder = "Acceleration";
-		velocityChangeField.placeholder = deltaSymbol.textContent + "Velocity";
-		timeChangeField.placeholder = deltaSymbol.textContent + "Time";
+    accelerationField.placeholder = "acceleration";
+    velocityChangeField.placeholder = "velocity" + " (\u0394v)";
+    timeChangeField.placeholder = "time" + " (\u0394t)";
 		for(let i = 0; i < inputFields.length; i++){
 			inputFields[i].value = "";
 			if(inputFields[i].disabled){
