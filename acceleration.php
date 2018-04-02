@@ -105,8 +105,8 @@
 									<h4 class="text-center"><span class="badge">4</span>&nbsp;<strong>Values</strong></h4>
 									<form class="values-form">
 									<input class="form-control input-field" type="number" id="acceleration-field" placeholder="acceleration">
-									<input class="form-control input-field" type="number" id="velocity-change-field" placeholder="&Delta; velocity">
-									<input class="form-control input-field" type="number" id="time-change-field" placeholder="&Delta; time">
+									<input class="form-control input-field" type="number" id="velocity-change-field" placeholder="velocity (&Delta;v)">
+									<input class="form-control input-field" type="number" id="time-change-field" placeholder="time (&Delta;t)">
 									<span id="delta-symbol">&Delta;</span>
 									<input class="form-control input-field" type="number" id="sig-figs-field" placeholder="# of sigfigs (optional)">
 									<div class="form-divider"></div>
