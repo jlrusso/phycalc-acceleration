@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>PhyCalc | Physics Calculators</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta property="description" content="Here, we cover positive and negative acceleration and enable you to solve your own practice problems">
+	<title>IP | Acceleration</title>
+	<link rel="shortcut icon" href="/img/ip-logo.ico" type="image/ico">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
@@ -14,7 +16,7 @@
 <body>
 
 	<?php
-		include_once "navSearch.php";
+		include_once "nav-template.php";
 	?>
 
 	<section id="main-content">
@@ -124,9 +126,9 @@
 									</div>
 									<div id="outer-image-container">
 										<div id="inner-image-container">
-											<img src="../img/accl-equation-one.png" class="img-responsive slide" alt="Accl Equation 1"/>
-											<img src="../img/accl-equation-two.png" class="img-responsive slide" alt="Accl Equation 2"/>
-											<img src="../img/accl-equation-three.png" class="img-responsive slide" alt="Accl Equation 3"/>
+											<img src="../img/accl-equation-one.PNG" class="img-responsive slide" alt="Accl Equation 1"/>
+											<img src="../img/accl-equation-two.PNG" class="img-responsive slide" alt="Accl Equation 2"/>
+											<img src="../img/accl-equation-three.PNG" class="img-responsive slide" alt="Accl Equation 3"/>
 										</div>
 										<div id="slide-bar-indicators">
 											<div class="slide-bar"></div>
@@ -135,7 +137,7 @@
 										</div>
 									</div>
 									<div id="solo-image">
-										<img src="../img/solo-accl-image.png" class="img-responsive" alt="Acceleration Graph"/>
+										<img src="../img/solo-accl-image.PNG" class="img-responsive" alt="Acceleration Graph"/>
 									</div>
 								</div>
 							</div>
@@ -181,7 +183,7 @@
 								</div>
 							</div>
 							<div class="module-img">
-								<img src="../img/acceleration-graph.png" class="img-responsive" alt="Pythagorean Triangle">
+								<img src="../img/acceleration-graph.PNG" class="img-responsive" alt="Pythagorean Triangle">
 							</div>
 						</div>
 					</div>
@@ -235,10 +237,6 @@
 									</p>
 								</div>
 							</div>
-							<button class="accordion"><strong>Illustration</strong></button>
-							<div class="modal-panel">
-								<img src="img/accelerationAccordionImg1.png" alt="Car deceleration" class="img-responsive"/>
-							</div>
 							<button class="accordion"><strong>Given Variables</strong></button>
 							<div class="modal-panel">
 								<p>
@@ -249,6 +247,10 @@
 										<li><b>Final Velocity (Vf)</b> : 0 m/s</li>
 									</ul>
 								</p>
+							</div>
+							<button class="accordion"><strong>Illustration</strong></button>
+							<div class="modal-panel">
+								<img src="img/accelerationAccordionImg1.PNG" alt="Car deceleration" class="img-responsive"/>
 							</div>
 							<button class="accordion last-accordion"><strong>Solution:</strong></button>
 							<div class="modal-panel">
@@ -281,10 +283,6 @@
 										If a drag racer starts from a stop and accelerations down the track at 12 m/s<sup>2</sup> for 9.5 seconds, what would be his final velocity?
 									</p>
 								</div>
-								<button class="accordion"><strong>Illustration</strong></button>
-								<div class="modal-panel">
-									<img src="img/accelerationAccordionImg2.png" alt="Car deceleration" class="img-responsive"/>
-								</div>
 								<button class="accordion"><strong>Given Variables</strong></button>
 								<div class="modal-panel">
 									<p>
@@ -294,6 +292,10 @@
 											<li><b>Time Interval</b> : 9.5 seconds</li>
 										</ul>
 									</p>
+								</div>
+								<button class="accordion"><strong>Illustration</strong></button>
+								<div class="modal-panel">
+									<img src="img/accelerationAccordionImg2.PNG" alt="Car deceleration" class="img-responsive"/>
 								</div>
 								<button class="accordion last-accordion"><strong>Solution</strong></button>
 								<div class="modal-panel">
@@ -330,10 +332,6 @@
 										If a speed boat is going 91 mph and starts to decelerate at a rate of 4.2 m/s<sup>2</sup> how long would it take the boat to come to a complete stop?
 									</p>
 								</div>
-								<button class="accordion"><strong>Illustration</strong></button>
-								<div class="modal-panel">
-									<img src="img/accelerationAccordionImg3.png" alt="Car deceleration" class="img-responsive"/>
-								</div>
 								<button class="accordion"><strong>Given Variables</strong></button>
 								<div class="modal-panel">
 									<p>
@@ -344,6 +342,10 @@
 											<li><b>Rate of Acceleration</b> : -3.2 m/s<sup>2</sup></li>
 										</ul>
 									</p>
+								</div>
+								<button class="accordion"><strong>Illustration</strong></button>
+								<div class="modal-panel">
+									<img src="img/accelerationAccordionImg3.PNG" alt="Car deceleration" class="img-responsive"/>
 								</div>
 								<button class="accordion last-accordion"><strong>Solution</strong></button>
 								<div class="modal-panel">
