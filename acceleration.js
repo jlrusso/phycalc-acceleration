@@ -422,8 +422,8 @@ closeModalBtns.forEach(function(btn){
 				function setTempAcclValue(){
 					var tempAcclValue = velocityChangeField.value / timeChangeField.value;
 					function setFinalAcclValue(){
-						if(tempAcclValue.toString().length > 9){
-							accelerationField.value = tempAcclValue.toPrecision(sigFigsField.value || 9) + " " + (chosenUnit || " ") + "/" + (chosenTimeUnit || " ") + "^2";
+						if(tempAcclValue.toString().length > 5){
+							accelerationField.value = tempAcclValue.toPrecision(sigFigsField.value || 5) + " " + (chosenUnit || " ") + "/" + (chosenTimeUnit || " ") + "^2";
 						} else {
 							accelerationField.value = tempAcclValue.toPrecision(sigFigsField.value || tempAcclValue.toString().length) + " " + (chosenUnit || " ") + "/" + (chosenTimeUnit || " ") + "^2";
 						}
@@ -436,8 +436,8 @@ closeModalBtns.forEach(function(btn){
 				function setTempVelocityChangeValue(){
 					var tempVelocityChangeValue = accelerationField.value * timeChangeField.value;
 					function setFinalVelocityChangeValue(){
-						if(tempVelocityChangeValue.toString().length > 9){
-							velocityChangeField.value = tempVelocityChangeValue.toPrecision(sigFigsField.value || 9) + " " + (chosenUnit || " " ) + "/" + (chosenTimeUnit || " ");
+						if(tempVelocityChangeValue.toString().length > 5){
+							velocityChangeField.value = tempVelocityChangeValue.toPrecision(sigFigsField.value || 5) + " " + (chosenUnit || " " ) + "/" + (chosenTimeUnit || " ");
 						} else {
 							velocityChangeField.value = tempVelocityChangeValue.toPrecision(sigFigsField.value || tempVelocityChangeValue.toString().length) + " " + (chosenUnit || " " ) + "/" + (chosenTimeUnit || " ");
 						}
@@ -450,8 +450,8 @@ closeModalBtns.forEach(function(btn){
 				function setTempTimeChangeValue(){
 					var tempTimeChangeValue = velocityChangeField.value / accelerationField.value;
 					function setFinalTimeChangeValue(){
-						if(tempTimeChangeValue.toString().length > 9){
-							timeChangeField.value = tempTimeChangeValue.toPrecision(sigFigsField.value || 9) + " " + (chosenTimeUnit || " " );
+						if(tempTimeChangeValue.toString().length > 5){
+							timeChangeField.value = tempTimeChangeValue.toPrecision(sigFigsField.value || 5) + " " + (chosenTimeUnit || " " );
 						} else {
 							timeChangeField.value = tempTimeChangeValue.toPrecision(sigFigsField.value || tempTimeChangeValue.toString().length) + " " + (chosenTimeUnit || " " );
 						}
